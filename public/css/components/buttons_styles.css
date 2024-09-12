@@ -1,0 +1,16 @@
+.form-btn {
+    background-color: rgb(70, 64, 222);
+    color: aliceblue;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: .2s all;
+    font-size: larger;
+}
+
+.form-btn:hover {
+    background-color: rgb(70, 64, 222);
+    border-radius: 5px;
+}
