@@ -6,6 +6,7 @@
 
 /*PAGES*/
 @import url('pages/signup_page.css');
+@import url('pages/admin_announcement.css');
 
 /* FONTS */ 
 @font-face {
