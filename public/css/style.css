@@ -3,10 +3,12 @@
 /* COMPONENTS */
 @import url('components/form_styles.css');
 @import url('components/buttons_styles.css');
+@import url('components/admin_sidebar.css');
 
 /*PAGES*/
 @import url('pages/signup_page.css');
 @import url('pages/admin_announcement.css');
+@import url('pages/admin_settings.css');
 
 /* FONTS */ 
 @font-face {
@@ -19,3 +21,4 @@ body {
     padding: 0;
     font-family: Monteserrat-Regular;
 }
+
