@@ -1,4 +1,6 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
+<div class="admin-layout">
+    <?php require APPROOT . '/views/inc/components/admin_sidebar.php'; ?>
     <div class="admin-container">
         <div class="post-container">
             <div class="announcement-header">
@@ -7,7 +9,7 @@
                 </a>
                 <h1>Create Announcement</h1>
             </div>
-            <form action="<?php echo URLROOT?>/Posts/create" method="post">
+            <form action="" method="post">
                 <h2>Title</h2>
                 <input type="text" name="title" id="title" placeholder="Title" value="">
                 <span class="form-invalid"></span>
@@ -32,9 +34,8 @@
                 </label>
             </div>
 
-            <input type="submit" value="Post" class="form-btn custom-btn">
-
-              
+            <input type="submit" value="Post" class="form-btn custom-btn">    
         </div>
     </div>
+</div>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
